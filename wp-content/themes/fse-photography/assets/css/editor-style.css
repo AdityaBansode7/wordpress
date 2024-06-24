@@ -1,0 +1,74 @@
+.wp-site-blocks .alignfull, .wp-site-blocks > .wp-block-group.has-background, .wp-site-blocks > .wp-block-cover, .wp-site-blocks > .wp-block-template-part > .wp-block-group.has-background, .wp-site-blocks > .wp-block-template-part > .wp-block-cover, body > .is-root-container > .wp-block-group.has-background, body > .is-root-container > .wp-block-cover, body > .is-root-container > .wp-block-template-part > .wp-block-group.has-background, body > .is-root-container > .wp-block-template-part > .wp-block-cover, .is-root-container .wp-block[data-align="full"]{
+  margin-left: calc(-1* var(--wp--custom--spacing--outer)) !important;
+  margin-right: calc(-1* var(--wp--custom--spacing--outer)) !important;
+  width: unset;
+}
+.wp-site-blocks, .edit-post-visual-editor__post-title-wrapper, .wp-block-group.alignfull, .slider .wp-block-cover, .wp-block-group.has-background, .wp-block-cover.alignfull, .is-root-container .wp-block[data-align="full"] > .wp-block-group, .is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+    padding-left: var(--wp--custom--spacing--outer);
+    padding-right: var(--wp--custom--spacing--outer);
+}
+/*custom-css*/
+.home .wp-site-blocks{
+  padding-left: 0;
+  padding-right: 0;
+}
+.wp-site-blocks > .front-header.wp-block-template-part > .wp-block-group.has-background.main-header{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.front-header .main-header{
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  top: 60px;
+  width: 100% !important;
+  z-index: 999;
+  background: transparent !important;
+}
+.inner-lower-header{
+    border-bottom: 1px solid #ffffff4f;
+}
+.slider-content-box{
+    position: absolute !important;
+    bottom: -338px !important;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.wp-block-image img{
+  vertical-align: middle;
+}
+.shot-heading{
+  display: inline-block;
+  border-radius: 30px;
+}
+.about-img-box figure,.about-img-box img{
+  width: 100% !important;
+}
+.footer-content{
+  width: 80%;
+}
+footer .wp-block-social-links .wp-block-social-link.wp-social-link .wp-block-social-link-anchor:hover{
+  background-color:var(--wp--preset--color--secondary-bg-color) !important ;
+  border-radius: 50%;
+}
+footer .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input{
+  border: none;
+}
+footer .wp-block-search .wp-block-search__inside-wrapper, .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper{
+  background:var(--wp--preset--color--background);
+  padding: 0;
+  border-radius: 30px;
+}
+footer .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button{
+  padding: 0 20px;
+  background: transparent;s
+}
+footer .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input, .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__input{
+  height: 32px;
+  background: transparent;
+}
+footer .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button:hover{
+  background: transparent;
+  border: none;
+}

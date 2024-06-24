@@ -1,0 +1,302 @@
+#customize-controls .control-section-ultimate-audio-streaming .accordion-section-title:hover,
+#customize-controls .control-section-ultimate-audio-streaming .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-ultimate-audio-streaming .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-ultimate-audio-streaming .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+.accordion-section-title .button, .accordion-section-title .button-secondary {
+  background: #0073aa;
+  font-size: 12px;
+  font-weight: bold !important;
+  color: #fff;
+}
+/* ---------Excerpt & Logo --------- */
+input#_customize-input-ultimate_audio_streaming_excerpt_number,
+input#_customize-input-logo_size, 
+input#_customize-input-ultimate_audio_streaming_about_excerpt_number,
+input#_customize-input-ultimate_audio_streaming_post_featured_image_custom_width,
+input#_customize-input-ultimate_audio_streaming_post_featured_image_custom_height,
+input#_customize-input-ultimate_audio_streaming_custom_post_color_width,
+input#_customize-input-ultimate_audio_streaming_custom_post_color_height{
+  width: 100%;
+}
+#customize-controls img {
+  border: solid 2px #B2298E;
+  margin-bottom: 10px;
+}
+.customize-control-title {
+  font-size: 16px;
+  color: #0073aa;
+}
+#customize-save-button-wrapper input#save, #customize-save-button-wrapper button#publish-settings {
+  color: #fff;
+  border-radius: 0;
+  font-size: 12px;
+}
+/* ---------FontAwesome Icon Styles--------- */
+.type-icon{
+  overflow: hidden;
+}
+.selected-icon{
+  background: #fff;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border: 1px solid #EEE;
+  position: relative;
+  margin-right: 45px;
+  cursor: pointer;
+  font-size: 28px;
+  width: 50px;
+}
+.selected-icon .fa{
+  display: block;
+  line-height: 45px;
+  background: #fff;
+}
+.selected-icon span{
+  position: absolute;
+  background: #fff;
+  right: -45px;
+  top: -1px;
+  height: 45px;
+  width: 45px;
+  border: 1px solid #EEE;
+  font-size: 20px;
+}
+.icon-list{
+  height: 215px;
+  overflow-y: scroll;
+  font-size: 18px;
+  border: 1px solid #EEE;
+  background: #fff;
+  border-right: 0;
+  border-top: 0;
+  padding-bottom: 4%;
+  display: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.icon-list li{
+  float: left;
+  margin: 4% 3% 0;
+  height: 45px;
+  width: 18%;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #EEE;  
+}
+.icon-list li:hover{
+  background: #333;
+  border: 1px solid #333;
+  color: #FFF;
+}
+.icon-list li.icon-active{
+  background: #0073aa;
+  border: 1px solid #0073aa;
+  color: #FFF;
+}
+.ultimate-audio-streaming-social-class{
+  display: none;
+}
+.socialInput{
+  padding: 10px;
+  font-size: 16px;
+}
+#accordion-section-ultimate_audio_streaming_important_links h3{
+  background-color: #0073aa !important;
+  color: #ffffff !important;
+  border-color: #0073aa !important;
+}
+#accordion-section-ultimate_audio_streaming_important_links .accordion-section-title:after{
+  color: #ffffff !important;
+}
+/* ---------Important Link--------- */
+#customize-control-ultimate_audio_streaming_doc_link span a,
+#customize-control-ultimate_audio_streaming_demo_links span a,
+#customize-control-ultimate_audio_streaming_forum_links span a {
+  display: block;
+  background-color: #6edcf5;
+  color: #0b3240;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 10px;
+  border: 2px solid #0b3240;
+  border-radius: 10px;
+  text-align: center;
+}
+#customize-control-ultimate_audio_streaming_doc_link span a:hover,
+#customize-control-ultimate_audio_streaming_demo_links span a:hover,
+#customize-control-ultimate_audio_streaming_forum_links span a:hover {
+  background-color: #0b3240;
+  color: #fff;
+}
+/* Premium Features Css */
+#customize-control-ultimate_audio_streaming_music_sec_premium_info, 
+#customize-control-ultimate_audio_streaming_track_sec_premium_info,
+#customize-control-ultimate_audio_streaming_slider_premium_info,
+#customize-control-ultimate_audio_streaming_typography_premium_info,
+#customize-control-ultimate_audio_streaming_header_premium_info,
+#customize-control-ultimate_audio_streaming_menu_premium_info,
+#customize-control-ultimate_audio_streaming_icons_premium_info,
+#customize-control-ultimate_audio_streaming_layout_premium_info,
+#customize-control-ultimate_audio_streaming_global_premium_info,
+#customize-control-ultimate_audio_streaming_post_premium_info,
+#customize-control-ultimate_audio_streaming_button_premium_info,
+#customize-control-ultimate_audio_streaming_single_post_premium_info,
+#customize-control-ultimate_audio_streaming_related_premium_info,
+#customize-control-ultimate_audio_streaming_responsive_premium_info,
+#customize-control-ultimate_audio_streaming_page_premium_info,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info,
+#customize-control-ultimate_audio_streaming_footer_premium_info{
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fafafa;
+  border: 1px solid #a9a1a1;
+  box-shadow: 0px 0px 12px #a9a1a1;
+  width: auto;
+}
+#customize-control-ultimate_audio_streaming_music_sec_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_track_sec_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_slider_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_typography_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_header_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_menu_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_icons_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_layout_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_global_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_post_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_button_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_single_post_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_related_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_responsive_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_page_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info .customize-control-title,
+#customize-control-ultimate_audio_streaming_footer_premium_info .customize-control-title{
+  font-size: 18px;
+  font-weight: 800;
+  color: #000000;
+  border-bottom: 1px dashed #000000;
+  margin-bottom: 15px;
+}
+#customize-control-ultimate_audio_streaming_music_sec_premium_info ul,
+#customize-control-ultimate_audio_streaming_track_sec_premium_info ul,
+#customize-control-ultimate_audio_streaming_slider_premium_info ul,
+#customize-control-ultimate_audio_streaming_typography_premium_info ul,
+#customize-control-ultimate_audio_streaming_header_premium_info ul,
+#customize-control-ultimate_audio_streaming_menu_premium_info ul,
+#customize-control-ultimate_audio_streaming_icons_premium_info ul,
+#customize-control-ultimate_audio_streaming_layout_premium_info ul,
+#customize-control-ultimate_audio_streaming_global_premium_info ul,
+#customize-control-ultimate_audio_streaming_post_premium_info ul,
+#customize-control-ultimate_audio_streaming_button_premium_info ul,
+#customize-control-ultimate_audio_streaming_single_post_premium_info ul,
+#customize-control-ultimate_audio_streaming_related_premium_info ul,
+#customize-control-ultimate_audio_streaming_responsive_premium_info ul,
+#customize-control-ultimate_audio_streaming_page_premium_info ul,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info ul,
+#customize-control-ultimate_audio_streaming_footer_premium_info ul{
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+#customize-control-ultimate_audio_streaming_music_sec_premium_info ul li,
+#customize-control-ultimate_audio_streaming_track_sec_premium_info ul li,
+#customize-control-ultimate_audio_streaming_slider_premium_info ul li,
+#customize-control-ultimate_audio_streaming_typography_premium_info ul li,
+#customize-control-ultimate_audio_streaming_header_premium_info ul li,
+#customize-control-ultimate_audio_streaming_menu_premium_info ul li,
+#customize-control-ultimate_audio_streaming_icons_premium_info ul li,
+#customize-control-ultimate_audio_streaming_layout_premium_info ul li,
+#customize-control-ultimate_audio_streaming_global_premium_info ul li,
+#customize-control-ultimate_audio_streaming_post_premium_info ul li,
+#customize-control-ultimate_audio_streaming_button_premium_info ul li,
+#customize-control-ultimate_audio_streaming_single_post_premium_info ul li,
+#customize-control-ultimate_audio_streaming_related_premium_info ul li,
+#customize-control-ultimate_audio_streaming_responsive_premium_info ul li,
+#customize-control-ultimate_audio_streaming_page_premium_info ul li,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info ul li,
+#customize-control-ultimate_audio_streaming_footer_premium_info  ul li{
+  list-style: square;
+  font-style: normal;
+}
+#customize-control-ultimate_audio_streaming_music_sec_premium_info a,
+#customize-control-ultimate_audio_streaming_track_sec_premium_info a,
+#customize-control-ultimate_audio_streaming_slider_premium_info a,
+#customize-control-ultimate_audio_streaming_typography_premium_info a,
+#customize-control-ultimate_audio_streaming_header_premium_info a,
+#customize-control-ultimate_audio_streaming_menu_premium_info a,
+#customize-control-ultimate_audio_streaming_icons_premium_info a,
+#customize-control-ultimate_audio_streaming_layout_premium_info a,
+#customize-control-ultimate_audio_streaming_global_premium_info a,
+#customize-control-ultimate_audio_streaming_post_premium_info a,
+#customize-control-ultimate_audio_streaming_button_premium_info a,
+#customize-control-ultimate_audio_streaming_single_post_premium_info a,
+#customize-control-ultimate_audio_streaming_related_premium_info a,
+#customize-control-ultimate_audio_streaming_responsive_premium_info a,
+#customize-control-ultimate_audio_streaming_page_premium_info a,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info a,
+#customize-control-ultimate_audio_streaming_footer_premium_info a{
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+}
+#customize-control-ultimate_audio_streaming_music_sec_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_track_sec_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_slider_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_typography_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_header_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_menu_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_icons_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_layout_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_global_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_post_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_button_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_single_post_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_related_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_responsive_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_page_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info a:hover,
+#customize-control-ultimate_audio_streaming_footer_premium_info a:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+}
+#customize-control-ultimate_audio_streaming_music_sec_premium_info,
+#customize-control-ultimate_audio_streaming_track_sec_premium_info,
+#customize-control-ultimate_audio_streaming_slider_premium_info,
+#customize-control-ultimate_audio_streaming_typography_premium_info,
+#customize-control-ultimate_audio_streaming_header_premium_info,
+#customize-control-ultimate_audio_streaming_menu_premium_info,
+#customize-control-ultimate_audio_streaming_icons_premium_info,
+#customize-control-ultimate_audio_streaming_layout_premium_info,
+#customize-control-ultimate_audio_streaming_global_premium_info,
+#customize-control-ultimate_audio_streaming_post_premium_info,
+#customize-control-ultimate_audio_streaming_button_premium_info,
+#customize-control-ultimate_audio_streaming_single_post_premium_info,
+#customize-control-ultimate_audio_streaming_related_premium_info,
+#customize-control-ultimate_audio_streaming_responsive_premium_info,
+#customize-control-ultimate_audio_streaming_page_premium_info,
+#customize-control-ultimate_audio_streaming_woocommerce_premium_info,
+#customize-control-ultimate_audio_streaming_footer_premium_info{
+  margin-bottom: 20px;
+}
